@@ -86,9 +86,9 @@ Loan interest is added to the outstanding debt when a loan is accepted. Availabl
 
 The application is currently implemented as a single Python script, with its functionality organised into three main classes:
 
-* `RouletteWheel` — manages wheel rotation, ball animation, spin outcomes, and wheel rendering.
-* `BankSystem` — handles loan eligibility, interest calculations, loan offers, and the banking interface.
-* `Game` — manages the main game loop, betting, balance, payouts, input handling, and interaction between the wheel and banking systems.
+* RouletteWheel — manages wheel rotation, ball animation, spin outcomes, and wheel rendering.
+* BankSystem — handles loan eligibility, interest calculations, loan offers, and the banking interface.
+* Game — manages the main game loop, betting, balance, payouts, input handling, and interaction between the wheel and banking systems.
 
 ## Future Improvements
 
