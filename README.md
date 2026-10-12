@@ -20,9 +20,9 @@ Betting System
 * Adjustable bet amounts using on-screen controls or direct text input.
 * Six betting options:
 
-  * **Red / Black** — bet on the pocket colour.
-  * **Even / Odd** — bet on the number's parity.
-  * **Low / High** — bet on numbers 1–18 or 19–36.
+  * **Red / Black** - bet on the pocket colour.
+  * **Even / Odd** - bet on the number's parity.
+  * **Low / High** - bet on numbers 1–18 or 19–36.
 * Payout calculations based on the selected bet and final result.
 * Balance tracking and notifications for wins and losses.
 
@@ -46,11 +46,11 @@ Interactive Gameplay
 
 ## Technologies
 
-* **Python** — core application logic and game mechanics.
-* **Pygame** — graphical interface, rendering, animation, mouse and keyboard input.
-* **Math** — geometric calculations for wheel segments, ball positioning, and animated visual effects.
-* **Random** — generation of roulette outcomes and spin parameters.
-* **Time** — animation timing and temporary on-screen messages.
+* **Python** - core application logic and game mechanics.
+* **Pygame** - graphical interface, rendering, animation, mouse and keyboard input.
+* **Math** - geometric calculations for wheel segments, ball positioning, and animated visual effects.
+* **Random** - generation of roulette outcomes and spin parameters.
+* **Time** - animation timing and temporary on-screen messages.
 
 ## How to Play
 
@@ -86,9 +86,9 @@ Loan interest is added to the outstanding debt when a loan is accepted. Availabl
 
 The application is currently implemented as a single Python script, with its functionality organised into three main classes:
 
-* RouletteWheel — manages wheel rotation, ball animation, spin outcomes, and wheel rendering.
-* BankSystem — handles loan eligibility, interest calculations, loan offers, and the banking interface.
-* Game — manages the main game loop, betting, balance, payouts, input handling, and interaction between the wheel and banking systems.
+* RouletteWheel - manages wheel rotation, ball animation, spin outcomes, and wheel rendering.
+* BankSystem - handles loan eligibility, interest calculations, loan offers, and the banking interface.
+* Game - manages the main game loop, betting, balance, payouts, input handling, and interaction between the wheel and banking systems.
 
 ## Future Improvements
 
